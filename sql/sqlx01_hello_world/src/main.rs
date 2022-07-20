@@ -1,6 +1,6 @@
 use sqlx::{
     mysql::{MySqlPoolOptions, MySqlRow},
-    Row,
+    Row 
 };
 
 #[tokio::main]
@@ -42,7 +42,6 @@ async fn main() -> Result<(), sqlx::Error> {
     for user in users {
         println!("user: {:?}", user);
     }
-
 
     Ok(())
 }
