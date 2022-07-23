@@ -580,6 +580,7 @@ dependencies = [
  "log",
  "mini-redis",
  "tokio",
+ "tokio-stream",
 ]
 
 [[package]]
